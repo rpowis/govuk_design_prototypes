@@ -31,7 +31,7 @@ You can include the content on a page using a partial, like this:
 
 The navigation and page headings are generated from the data file in the `data` folder. This allows us to quickly try out different navigation structures. The values in the data file determine the URL path. The same values are transformed into the links and page titles by swapping underscores for spaces and capitalising the 1st letter.
 
-### navigation changes
+### Navigation changes
 
 To make changes to the navigaton there are a few things you need to changes
 
