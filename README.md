@@ -38,7 +38,7 @@ To make changes to the navigaton there are a few things you need to changes
 1. duplicate the latest `data/vX.yml` file 
 2. duplicate the latest `source/layouts/vX.erb` file and edit the line `<%= partial('/layouts/left-nav', :locals => { :nav => data.vXnav, :version => "vX" }) %>` to relate to your chosen version number
 3. in the files contained in `source/vX/` change the `layout` variable to match your chosen version number
-4. in `config.rb` duplicate the routes and edit the `proxy` to match your chosen version number
+4. in `config.rb` duplicate the routes and edit the `data.v6nav.sections.each do |section|` & `proxy` to match your chosen version number
 
 In the above example `X` relates to your chosen version number.
 
