@@ -5,31 +5,31 @@
 
 $(function() {
 
-  $('.fixedsticky').fixedsticky();
+  // $('.fixedsticky').fixedsticky();
 
-  // Hide sub-nav by default
-  $('.js-toc-list > ul > li > ul').hide();
+  // // Hide sub-nav by default
+  // $('.js-toc-list > ul > li > ul').hide();
 
-  // Show current section
-  $('.current-section > ul').show();
+  // // Show current section
+  // $('.current-section > ul').show();
 
-  // Toggle subnav if it's clicked
-  $('.js-toc-list > ul > li > a').click(function(){
+  // // Toggle subnav if it's clicked
+  // $('.js-toc-list > ul > li > a').click(function(){
 
-    if($(this).siblings("ul").css('display') == 'block'){
+  //   if($(this).siblings("ul").css('display') == 'block'){
 
-      $(this).siblings("ul").toggle('fast');
+  //     $(this).siblings("ul").toggle('fast');
 
-    } else {
-      // Hide all navs
-      $('.js-toc-list > ul > li > ul').hide();
+  //   } else {
+  //     // Hide all navs
+  //     $('.js-toc-list > ul > li > ul').hide();
 
-      // Show this subnav
-      $(this).siblings("ul").toggle('fast');
+  //     // Show this subnav
+  //     $(this).siblings("ul").toggle('fast');
 
-    }
+  //   }
 
-  });
+  // });
 
 
 
